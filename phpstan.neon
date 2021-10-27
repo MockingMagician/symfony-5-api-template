@@ -1,0 +1,13 @@
+parameters:
+	paths:
+	    - src
+	level: 7
+	checkMissingIterableValueType: false
+	checkGenericClassInNonGenericObjectType: false
+	reportUnmatchedIgnoredErrors: false
+	ignoreErrors:
+	    - '#Call to an undefined method object::getUser#'
+	    -
+	        message: '#Variable \$response might not be defined#'
+	        paths:
+	            - src/Geo/*
